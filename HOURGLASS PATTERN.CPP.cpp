@@ -1,7 +1,7 @@
 //SHIFATPREET SINGH 
 //24070123098
 //ENTC B1
-//HOURCLASS PATTERN
+//HOURGLASS PATTERN
 #include<iostream>
 using namespace std;
 int main(){
