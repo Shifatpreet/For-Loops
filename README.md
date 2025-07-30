@@ -1,1 +1,189 @@
-# For-Loops
+For Loop Pattern Programs in C++
+This repository contains several C++ programs demonstrating the use of for loops to create various number and star patterns with nested loops. Each program includes an algorithm to explain the logic.
+
+Table of Contents
+1. Simple Nested Loop Output
+
+2. Number Pyramid
+
+3. Star Triangle Pattern
+
+4. Hourglass Star Pattern
+
+5. Right-Aligned Star Triangle
+
+1. Simple Nested Loop Output
+
+Description:
+
+Prints the sequence of "Outer" and "Inner" loop counters showing how nested loops operate.
+
+Algorithm:
+1.Start an outer loop from 1 to 2.
+
+2.Print "Outer" with the value of the outer loop variable.
+
+3.Inside the outer loop, start an inner loop from 1 to 3.
+
+4.Print "Inner" with the value of the inner loop variable.
+
+5.Repeat steps 3-4 for each iteration of the outer loop.
+
+Output Example:
+<img width="572" height="381" alt="image" src="https://github.com/user-attachments/assets/029641ba-60df-4f32-a063-8f5ea63aa5d7" />
+
+2. Number Pyramid
+Description:
+Prints a triangular number pattern where numbers increment continuously row-wise based on user input.
+
+Algorithm:
+1.Read number n from the user.
+
+2.Initialize a counter k to 1.
+
+3.For each row i from 0 to n-1:
+
+4.For each column j from 0 to i:
+
+5.Print the current value of k and increment k by 1.
+
+6.Move to the next line after each row.
+
+Sample Output:
+<img width="500" height="222" alt="image" src="https://github.com/user-attachments/assets/d4f16093-51e5-4519-ba8d-405930c3fc6c" />
+
+
+Certainly! Here is the updated README.md content for your "for loop" pattern programs repository, without the author section, and with an algorithm described for each code:
+
+For Loop Pattern Programs in C++
+This repository contains several C++ programs demonstrating the use of for loops to create various number and star patterns with nested loops. Each program includes an algorithm to explain the logic.
+
+Table of Contents
+1. Simple Nested Loop Output
+
+2. Number Pyramid
+
+3. Star Triangle Pattern
+
+4. Hourglass Star Pattern
+
+5. Right-Aligned Star Triangle
+
+1. Simple Nested Loop Output
+Description:
+Prints the sequence of "Outer" and "Inner" loop counters showing how nested loops operate.
+
+Algorithm:
+Start an outer loop from 1 to 2.
+
+Print "Outer" with the value of the outer loop variable.
+
+Inside the outer loop, start an inner loop from 1 to 3.
+
+Print "Inner" with the value of the inner loop variable.
+
+Repeat steps 3-4 for each iteration of the outer loop.
+
+Output Example:
+text
+Outer:1
+
+Inner:1
+
+Inner:2
+
+Inner:3
+
+Outer:2
+
+Inner:1
+
+Inner:2
+
+Inner:3
+2. Number Pyramid
+Description:
+Prints a triangular number pattern where numbers increment continuously row-wise based on user input.
+
+Algorithm:
+Read number n from the user.
+
+Initialize a counter k to 1.
+
+For each row i from 0 to n-1:
+
+For each column j from 0 to i:
+
+Print the current value of k and increment k by 1.
+
+Move to the next line after each row.
+
+Sample Output:
+text
+Enter a number:5
+1 
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+
+3. Star Triangle Pattern
+Description:
+Prints a right-angled triangle made of stars increasing from 1 to n stars in each row.
+
+Algorithm:
+1.Set the number of rows n (e.g., 5).
+
+2.For each row i from 1 to n:
+
+3.Print i stars (*).
+
+4.Move to the next line.
+
+Sample Output:
+
+<img width="629" height="141" alt="image" src="https://github.com/user-attachments/assets/3c063f9d-3275-4308-962a-a839b46bef10" />
+
+4. Right-Aligned Star Triangle
+Description:
+Prints a right-aligned triangle of stars with the number of rows given by user input.
+
+Algorithm:
+1.Read an integer n from the user.
+
+2.For each row i from 0 to n-1:
+
+3.Print n - i pairs of spaces to create indentation.
+
+4.Print i + 1 stars separated by spaces.
+
+5.Move to the next line.
+
+Sample Output:
+<img width="628" height="222" alt="image" src="https://github.com/user-attachments/assets/76215c1c-8615-418a-a784-97c4a3a19bb8" />
+
+5. Hourglass Star Pattern
+Description:
+Prints an hourglass-shaped pattern of stars that decreases and then increases symmetrically.
+
+Algorithm:
+1.First phase (upper part):
+
+2.For i from 1 to 7:
+
+3.Print i-1 spaces.
+
+4.Print 8 - i stars separated by spaces.
+
+5.Second phase (lower part):
+
+6.For i from 1 to 6:
+
+7.Print 6 - i spaces.
+
+8.Print i + 1 stars separated by spaces.
+
+Sample Output:
+<img width="638" height="389" alt="image" src="https://github.com/user-attachments/assets/2ba47204-fb83-49d8-a131-f358d1c1a506" />
+
+
