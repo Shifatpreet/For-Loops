@@ -1,6 +1,7 @@
 //Shifatpreet Singh
 //24070123098
 //ENTC B1
+//FLLOYD'S SERIES
 #include<iostream>
 using namespace std;
 int main(){
