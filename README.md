@@ -1,4 +1,4 @@
-For Loop Pattern Programs in C++
+__For Loop Pattern Programs in C++__
 This repository contains several C++ programs demonstrating the use of for loops to create various number and star patterns with nested loops. Each program includes an algorithm to explain the logic.
 
 Table of Contents
