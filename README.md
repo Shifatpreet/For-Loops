@@ -14,7 +14,7 @@ __Table of Contents:__
 
 5. Right-Aligned Star Triangle
 
-1. Simple Nested Loop Output
+6. Alphabet Triangle Pattern
 
 __Description:__
 
