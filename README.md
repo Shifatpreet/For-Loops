@@ -140,3 +140,32 @@ __Sample Output:__
 <img width="638" height="389" alt="image" src="https://github.com/user-attachments/assets/2ba47204-fb83-49d8-a131-f358d1c1a506" />
 
 
+__6.Alphabet Triangle Pattern :__
+
+__Description__
+
+This program prints a triangular pattern of continuous English alphabets, where the number of rows is determined by the user's input. Letters are printed in order, starting from 'A' and continuing across rows, incrementing left to right.
+
+__Algorithm__:
+
+1.Read the number of rows n from the user.
+
+2.Initialize a character variable (e.g., ch) to 'A'.
+
+3.For each row from 1 to n:
+
+4.For each column in the current row:
+
+5.Print the current character and increment it to the next alphabet.
+
+6.Move to the next line after each row.
+
+__Example Output__
+
+For input n = 6:
+
+<img width="592" height="176" alt="image" src="https://github.com/user-attachments/assets/34431d68-11ea-4a46-a7fc-dfaba12a5de3" />
+
+
+
+
