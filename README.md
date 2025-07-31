@@ -1,7 +1,9 @@
-__For Loop Pattern Programs in C++__
+__For Loop Pattern Programs in C++__:
+
 This repository contains several C++ programs demonstrating the use of for loops to create various number and star patterns with nested loops. Each program includes an algorithm to explain the logic.
 
-Table of Contents
+__Table of Contents:__
+
 1. Simple Nested Loop Output
 
 2. Number Pyramid
@@ -14,11 +16,11 @@ Table of Contents
 
 1. Simple Nested Loop Output
 
-Description:
+__Description:__
 
 Prints the sequence of "Outer" and "Inner" loop counters showing how nested loops operate.
 
-Algorithm:
+__Algorithm:__
 1.Start an outer loop from 1 to 2.
 
 2.Print "Outer" with the value of the outer loop variable.
@@ -29,17 +31,20 @@ Algorithm:
 
 5.Repeat steps 3-4 for each iteration of the outer loop.
 
-Output Example:
+__Output Example:__
 
 
 <img width="572" height="381" alt="image" src="https://github.com/user-attachments/assets/029641ba-60df-4f32-a063-8f5ea63aa5d7" />
 
 
-2. Number Pyramid
-Description:
+__2. Number Pyramid__
+
+__Description:__
+
 Prints a triangular number pattern where numbers increment continuously row-wise based on user input.
 
-Algorithm:
+__Algorithm:__
+
 1.Read number n from the user.
 
 2.Initialize a counter k to 1.
@@ -52,17 +57,20 @@ Algorithm:
 
 6.Move to the next line after each row.
 
-Sample Output:
+__Sample Output:__
 
 
 <img width="500" height="222" alt="image" src="https://github.com/user-attachments/assets/d4f16093-51e5-4519-ba8d-405930c3fc6c" />
 
 
-3. Star Triangle Pattern
-Description:
+__3. Star Triangle Pattern__
+
+__Description:__
+
 Prints a right-angled triangle made of stars increasing from 1 to n stars in each row.
 
-Algorithm:
+__Algorithm:__
+
 1.Set the number of rows n (e.g., 5).
 
 2.For each row i from 1 to n:
@@ -71,18 +79,21 @@ Algorithm:
 
 4.Move to the next line.
 
-Sample Output:
+__Sample Output:__
 
 
 <img width="629" height="141" alt="image" src="https://github.com/user-attachments/assets/3c063f9d-3275-4308-962a-a839b46bef10" />
 
 
 
-4. Right-Aligned Star Triangle
-Description:
+__4. Right-Aligned Star Triangle__
+
+__Description:__
+
 Prints a right-aligned triangle of stars with the number of rows given by user input.
 
-Algorithm:
+__Algorithm:__
+
 1.Read an integer n from the user.
 
 2.For each row i from 0 to n-1:
@@ -99,11 +110,14 @@ Sample Output:
 <img width="628" height="222" alt="image" src="https://github.com/user-attachments/assets/76215c1c-8615-418a-a784-97c4a3a19bb8" />
 
 
-5. Hourglass Star Pattern
-Description:
+__5. Hourglass Star Pattern__
+
+__Description:__
+
 Prints an hourglass-shaped pattern of stars that decreases and then increases symmetrically.
 
-Algorithm:
+__Algorithm:__
+
 1.First phase (upper part):
 
 2.For i from 1 to 7:
@@ -120,7 +134,7 @@ Algorithm:
 
 8.Print i + 1 stars separated by spaces.
 
-Sample Output:
+__Sample Output:__
 
 
 <img width="638" height="389" alt="image" src="https://github.com/user-attachments/assets/2ba47204-fb83-49d8-a131-f358d1c1a506" />
